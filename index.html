@@ -2,13 +2,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.1">
 <head>
 <style>
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 div.imggallery {
-  margin: 0px;
-  border: 0px;
-  float: none;
-  width: 0px;
-  }
-div.icon {
   margin: 0px;
   border: 0px;
   float: none;
@@ -31,11 +52,24 @@ div.icon {
 <p class="p1">github page in 10 years because of cringe but i like it now so</p>
 <p class="p1">idc, as long as i like it now, its staying.</p>
 <p class="p1">i have twitter, i have discord and youtube but i mostly lurk on all of them except maybe discord or something</p>
-<div class="icon">
+<div class="imggallery">
     <a href= "https://twitter.com/peaksly1">
     <img src="https://www.creativefreedom.co.uk/wp-content/uploads/2017/06/Twitter-featured.png"
      width="50" 
      height="auto"></a>
+</div>
+<div class="imggallery">
+    <a href= "https://twitter.com/peaksly1">
+    <img src="https://www.creativefreedom.co.uk/wp-content/uploads/2017/06/Twitter-featured.png":hover {opacity: 0}
+     width="50" 
+     height="auto"></a>
+<div class="container">
+  <img src="https://cdn.icon-icons.com/icons2/2108/PNG/512/discord_icon_130958.png"
+     width="50"
+     height=auto>
+  <div class="overlay">
+    <div class="text"><p class="p1>Peaksly#0026</p>
+  </div>
 </div>
 <br>
 <br>
