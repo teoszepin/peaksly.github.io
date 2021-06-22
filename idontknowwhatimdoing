@@ -1,0 +1,14 @@
+cd peaksly.github.io
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+
+git add --all
+
+git commit -m "Initial commit"
+
+git push -u origin main
